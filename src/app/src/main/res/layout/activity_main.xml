@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.donggyu.example0000_0002.MainActivity">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+
+        android:background="@drawable/egg"
+        android:layout_marginTop="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안드몬 선택"
+        android:id="@+id/choiceButton"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다시 뽑기"
+        android:id="@+id/againButton"
+        android:textSize="25dp"
+        android:layout_below="@+id/choiceButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
